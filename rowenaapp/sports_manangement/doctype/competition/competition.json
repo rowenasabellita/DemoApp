@@ -1,0 +1,67 @@
+{
+ "creation": "2022-09-19 11:16:14.723510",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sport",
+  "participants",
+  "get_athletes",
+  "games",
+  "make_game"
+ ],
+ "fields": [
+  {
+   "fieldname": "sport",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Sport",
+   "options": "Basketball\nBaseball\nSoccer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "participants",
+   "fieldtype": "Table",
+   "label": "Participants",
+   "options": "Participants"
+  },
+  {
+   "fieldname": "get_athletes",
+   "fieldtype": "Button",
+   "label": "Get Athletes"
+  },
+  {
+   "fieldname": "games",
+   "fieldtype": "HTML",
+   "label": "Games"
+  },
+  {
+   "fieldname": "make_game",
+   "fieldtype": "Button",
+   "label": "Make Game",
+   "options": "Game"
+  }
+ ],
+ "modified": "2022-09-20 09:09:21.708858",
+ "modified_by": "Administrator",
+ "module": "Sports Manangement",
+ "name": "Competition",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

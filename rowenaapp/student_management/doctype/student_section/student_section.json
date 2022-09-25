@@ -1,0 +1,54 @@
+{
+ "creation": "2022-09-20 13:17:37.446992",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "section",
+  "student_profile"
+ ],
+ "fields": [
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section",
+   "read_only": 1
+  },
+  {
+   "fieldname": "student_profile",
+   "fieldtype": "Link",
+   "label": "Student Profile",
+   "options": "Student Profile"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  }
+ ],
+ "modified": "2022-09-20 16:42:02.816035",
+ "modified_by": "Administrator",
+ "module": "Student Management",
+ "name": "Student Section",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

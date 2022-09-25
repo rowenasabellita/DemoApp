@@ -1,0 +1,61 @@
+{
+ "creation": "2022-09-19 14:53:19.358994",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "sport",
+  "start_date",
+  "end_date",
+  "no_of_games"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sport",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sport",
+   "options": "Sport",
+   "reqd": 1
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "no_of_games",
+   "fieldtype": "Int",
+   "label": "No. of Games",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2022-09-19 21:32:40.602096",
+ "modified_by": "Administrator",
+ "module": "Sports Manangement",
+ "name": "Games",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

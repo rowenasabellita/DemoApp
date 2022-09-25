@@ -1,0 +1,37 @@
+{
+ "creation": "2022-09-19 10:56:14.455331",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "athlete",
+  "team"
+ ],
+ "fields": [
+  {
+   "fieldname": "athlete",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Athlete",
+   "options": "Athlete"
+  },
+  {
+   "fieldname": "team",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Team",
+   "options": "Team A\nTeam B"
+  }
+ ],
+ "istable": 1,
+ "modified": "2022-09-19 18:16:07.737492",
+ "modified_by": "Administrator",
+ "module": "Sports Manangement",
+ "name": "Participants",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,106 @@
+{
+ "creation": "2022-09-19 10:33:42.806501",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "middlename",
+  "lastname",
+  "age",
+  "sports",
+  "birthday",
+  "full_name",
+  "games",
+  "awards"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middlename",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "sports",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sports",
+   "options": "Sport",
+   "reqd": 1
+  },
+  {
+   "fieldname": "birthday",
+   "fieldtype": "Date",
+   "label": "Birthday ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "games",
+   "fieldtype": "Table",
+   "label": "Games",
+   "options": "Games",
+   "reqd": 1
+  },
+  {
+   "fieldname": "awards",
+   "fieldtype": "Table",
+   "label": "Awards",
+   "options": "Awards",
+   "reqd": 1
+  }
+ ],
+ "modified": "2022-09-19 21:40:16.024202",
+ "modified_by": "Administrator",
+ "module": "Sports Manangement",
+ "name": "Athlete",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

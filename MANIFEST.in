@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rowenaapp *.css
+recursive-include rowenaapp *.csv
+recursive-include rowenaapp *.html
+recursive-include rowenaapp *.ico
+recursive-include rowenaapp *.js
+recursive-include rowenaapp *.json
+recursive-include rowenaapp *.md
+recursive-include rowenaapp *.png
+recursive-include rowenaapp *.py
+recursive-include rowenaapp *.svg
+recursive-include rowenaapp *.txt
+recursive-exclude rowenaapp *.pyc
